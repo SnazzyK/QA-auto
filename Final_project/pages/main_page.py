@@ -1,11 +1,13 @@
 import time
 
+import allure
 from selenium.webdriver.support import expected_conditions as EC
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
 from base.base_class import Base
+from utilites.logger import Logger
 
 
 class Main_page(Base):
@@ -69,16 +71,22 @@ class Main_page(Base):
     # Methods
 
     def choice_category_1(self):
-        self.assert_url("https://kdvonline.ru/")
-        self.click_burger_menu()
-        self.click_category_1()
-        self.driver_g.execute_script("window.scrollTo(0,300)")
+        with allure.step("Choice category 1"):
+            Logger.add_start_step(method="choice_category_1")
+            self.assert_url("https://kdvonline.ru/")
+            self.click_burger_menu()
+            self.click_category_1()
+            self.driver_g.execute_script("window.scrollTo(0,300)")
+            Logger.add_end_step(url=self.driver_g.current_url, method="choice_category_1")
 
 
 
 
     def choice_category_2(self):
-        self.click_burger_menu()
-        self.click_category_2()
-        self.driver_g.execute_script("window.scrollTo(0,300)")
+        with allure.step("Choice category 2"):
+            Logger.add_start_step(method="choice_category_2")
+            self.click_burger_menu()
+            self.click_category_2()
+            self.driver_g.execute_script("window.scrollTo(0,300)")
+            Logger.add_end_step(url=self.driver_g.current_url, method="choice_category_2")
 

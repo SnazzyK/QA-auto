@@ -1,0 +1,77 @@
+
+-----
+Test: tests/test_by_product.py::test_select_product (call)
+Start time: 2023-11-28 19:03:43.455497
+Start name method: authorization
+
+End time: 2023-11-28 19:03:52.871544
+End name method: authorization
+URL: https://kdvonline.ru/
+
+-----
+
+-----
+Test: tests/test_by_product.py::test_select_product (call)
+Start time: 2023-11-28 19:03:52.872537
+Start name method: choice_category_1
+
+End time: 2023-11-28 19:04:03.226409
+End name method: choice_category_1
+URL: https://kdvonline.ru/catalog/novogodnie-podarki-20
+
+-----
+
+-----
+Test: tests/test_by_product.py::test_select_product (call)
+Start time: 2023-11-28 19:04:05.228426
+Start name method: selection_product_1
+
+End time: 2023-11-28 19:04:05.356798
+End name method: selection_product_1
+URL: https://kdvonline.ru/catalog/novogodnie-podarki-20
+
+-----
+
+-----
+Test: tests/test_by_product.py::test_select_product (call)
+Start time: 2023-11-28 19:04:05.356798
+Start name method: choice_category_2
+
+End time: 2023-11-28 19:04:06.172555
+End name method: choice_category_2
+URL: https://kdvonline.ru/catalog/bestseller-729
+
+-----
+
+-----
+Test: tests/test_by_product.py::test_select_product (call)
+Start time: 2023-11-28 19:04:08.173655
+Start name method: selection_product_2
+
+End time: 2023-11-28 19:04:08.412469
+End name method: selection_product_2
+URL: https://kdvonline.ru/cart
+
+-----
+
+-----
+Test: tests/test_by_product.py::test_select_product (call)
+Start time: 2023-11-28 19:04:08.412469
+Start name method: select_registration
+
+End time: 2023-11-28 19:04:09.579312
+End name method: select_registration
+URL: https://kdvonline.ru/cart
+
+-----
+
+-----
+Test: tests/test_by_product.py::test_select_product (call)
+Start time: 2023-11-28 19:04:09.580309
+Start name method: input_data
+
+End time: 2023-11-28 19:04:11.909363
+End name method: input_data
+URL: https://kdvonline.ru/checkout
+
+-----

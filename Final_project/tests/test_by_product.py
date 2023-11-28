@@ -1,6 +1,6 @@
 import datetime
 import time
-
+import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -13,7 +13,7 @@ from pages.login_page import Login_page
 from pages.main_page import Main_page
 from pages.products_page import Products_page
 
-
+@allure.description("Test select product")
 def test_select_product(set_up):
 
     options = webdriver.ChromeOptions()

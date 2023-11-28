@@ -1,0 +1,26 @@
+Start test
+------------------------------------------
+Start test
+current url data:,
+Input user login
+Input user password
+Click login button
+Good value word 
+Good value url
+Click burger menu
+Click category 1 
+current url https://kdvonline.ru/catalog/novogodnie-podarki-20
+Click product 1
+Click burger menu
+Click category 2 
+current url https://kdvonline.ru/catalog/bestseller-729
+Click product 2
+Click select cart 
+Click registration button
+Good value word 
+Input text area
+Input first name
+Input last name
+Input phone
+Finish test
+------------------------------------------

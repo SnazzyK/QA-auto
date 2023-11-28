@@ -1,3 +1,4 @@
+import allure
 import app
 from selenium.webdriver import Keys
 from selenium.webdriver.support import expected_conditions as EC
@@ -6,6 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
 from base.base_class import Base
+from utilites.logger import Logger
 
 
 class Finish_page(Base):
@@ -84,11 +86,14 @@ class Finish_page(Base):
     # Methods
 
     def input_data(self):
-        self.input_text_area("Передаю привет Алексу!!!)")
-        self.delete_my_first_name()
-        self.input_first_name("Valeriy")
-        self.delete_my_last_name()
-        self.input_last_name("Kaurov")
-        self.delete_my_phone()
-        self.input_phone("00000000000")
-        self.get_screenshot()
+        with allure.step("Input data"):
+            Logger.add_start_step(method="input_data")
+            self.input_text_area("Передаю привет Алексу!!!)")
+            self.delete_my_first_name()
+            self.input_first_name("Valeriy")
+            self.delete_my_last_name()
+            self.input_last_name("Kaurov")
+            self.delete_my_phone()
+            self.input_phone("00000000000")
+            self.get_screenshot()
+            Logger.add_end_step(url=self.driver_g.current_url, method="input_data")

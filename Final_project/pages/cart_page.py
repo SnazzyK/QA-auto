@@ -1,3 +1,4 @@
+import allure
 import app
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -5,6 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
 from base.base_class import Base
+from utilites.logger import Logger
 
 
 class Cart_page(Base):
@@ -54,7 +56,10 @@ class Cart_page(Base):
     # Methods
 
     def select_registration(self):
-        self.click_registration_button()
-        self.assert_word(self.get_main_word_2(), "Корзина")
+        with allure.step("Select registration"):
+            Logger.add_start_step(method="select_registration")
+            self.click_registration_button()
+            self.assert_word(self.get_main_word_2(), "Корзина")
+            Logger.add_end_step(url=self.driver_g.current_url, method="select_registration")
 
 

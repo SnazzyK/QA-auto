@@ -4,7 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
 from base.base_class import Base
-
+from utilites.logger import Logger
+import allure
 
 class Login_page(Base):
 
@@ -69,15 +70,18 @@ class Login_page(Base):
 
     # Methods
 
-    def authorization(self):
-        self.get_current_url()
-        self.driver_g.get(self.url)
-        self.driver_g.maximize_window()
-        self.input_user_login("toster28auto@gmail.com")
-        self.input_user_password("Qwerty12345")
-        self.click_login_button()
-        self.assert_word(self.get_main_word(), "Рекомендуем вам")
 
+    def authorization(self):
+        with allure.step("Authorization"):
+            Logger.add_start_step(method="authorization")
+            self.get_current_url()
+            self.driver_g.get(self.url)
+            self.driver_g.maximize_window()
+            self.input_user_login("toster28auto@gmail.com")
+            self.input_user_password("Qwerty12345")
+            self.click_login_button()
+            self.assert_word(self.get_main_word(), "Рекомендуем вам")
+            Logger.add_end_step(url=self.driver_g.current_url,method="authorization")
 
 
 
