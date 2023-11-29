@@ -88,7 +88,7 @@ class Finish_page(Base):
     def input_data(self):
         with allure.step("Input data"):
             Logger.add_start_step(method="input_data")
-            self.input_text_area("Передаю привет Алексу!!!)")
+            self.input_text_area("Купон:choko20")
             self.delete_my_first_name()
             self.input_first_name("Valeriy")
             self.delete_my_last_name()
