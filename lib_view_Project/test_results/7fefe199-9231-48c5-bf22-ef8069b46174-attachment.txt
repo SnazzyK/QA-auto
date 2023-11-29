@@ -1,0 +1,35 @@
+Start test
+current url data:,
+Input user login
+Input user password
+Click login button
+Good value word 
+Click add author
+Input name english
+Input name russian
+Input name german
+Input name french
+Input year of birth
+Input year of death
+Click lang author
+Click select lang author
+Click add button
+Click add metabook
+Input title
+Click author book
+click add author book
+Input number of chapters
+Click language book
+Click add language book
+Input creation year
+Click add metabook button
+Click add book
+Input title
+Input author book
+Input year of translation
+Click lang_book
+Click select lang book
+Click add book button
+Click add text
+Input text
+Click add text button text
