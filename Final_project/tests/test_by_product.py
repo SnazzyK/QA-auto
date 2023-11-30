@@ -18,7 +18,7 @@ def test_select_product(set_up):
 
     options = webdriver.ChromeOptions()
     options.add_experimental_option("detach", True)
-    g = Service('C:\\Users\\snazz\\PycharmProjects\\resource\\chromedriver.exe')
+    g = Service()
     driver_g = webdriver.Chrome(options=options, service=g)
 
     print("Start test")
