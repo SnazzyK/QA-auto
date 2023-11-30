@@ -1,0 +1,105 @@
+
+-----
+Test: tests/test_add_book.py::test_add_books (call)
+Start time: 2023-11-30 17:57:18.273646
+Start name method: authorization
+
+End time: 2023-11-30 17:57:19.389350
+End name method: authorization
+URL: http://localhost:8080/%D0%91%D1%80%D0%B0%D0%B9%D0%B0%D0%BD/private/HmkFLoDoTnHiPLFRItrcKlKaFdwdrLKvMuuyFYUYfHrZkyBWsEWzHfwtyCsDexmCvxxxzEYQfbFhstadPHjZwPIxegZpAatVpbwlJBKEnUUYsTvnSFJInBzKLUceXvwUlDeVCboGHsfwSkKAKrWfbRWwUDLAvCDpxDDjcFSlyJLLmNldawSrmnUnKcElcPWdnIHkYnohmiMjiFDTDDUynUeBFgxJhSbcWZLDJVdexyvVsrwoeUOuBDhpSnMoOmHO
+
+-----
+
+-----
+Test: tests/test_add_book.py::test_add_books (call)
+Start time: 2023-11-30 17:57:19.390350
+Start name method: select_author
+
+End time: 2023-11-30 17:57:19.497118
+End name method: select_author
+URL: http://localhost:8080/%D0%91%D1%80%D0%B0%D0%B9%D0%B0%D0%BD/add-a/HmkFLoDoTnHiPLFRItrcKlKaFdwdrLKvMuuyFYUYfHrZkyBWsEWzHfwtyCsDexmCvxxxzEYQfbFhstadPHjZwPIxegZpAatVpbwlJBKEnUUYsTvnSFJInBzKLUceXvwUlDeVCboGHsfwSkKAKrWfbRWwUDLAvCDpxDDjcFSlyJLLmNldawSrmnUnKcElcPWdnIHkYnohmiMjiFDTDDUynUeBFgxJhSbcWZLDJVdexyvVsrwoeUOuBDhpSnMoOmHO
+
+-----
+
+-----
+Test: tests/test_add_book.py::test_add_books (call)
+Start time: 2023-11-30 17:57:19.498115
+Start name method: add_author
+
+End time: 2023-11-30 17:57:21.035926
+End name method: add_author
+URL: http://localhost:8080/%D0%91%D1%80%D0%B0%D0%B9%D0%B0%D0%BD/private/HmkFLoDoTnHiPLFRItrcKlKaFdwdrLKvMuuyFYUYfHrZkyBWsEWzHfwtyCsDexmCvxxxzEYQfbFhstadPHjZwPIxegZpAatVpbwlJBKEnUUYsTvnSFJInBzKLUceXvwUlDeVCboGHsfwSkKAKrWfbRWwUDLAvCDpxDDjcFSlyJLLmNldawSrmnUnKcElcPWdnIHkYnohmiMjiFDTDDUynUeBFgxJhSbcWZLDJVdexyvVsrwoeUOuBDhpSnMoOmHO
+
+-----
+
+-----
+Test: tests/test_add_book.py::test_add_books (call)
+Start time: 2023-11-30 17:57:21.036923
+Start name method: select_metabook
+
+End time: 2023-11-30 17:57:21.132175
+End name method: select_metabook
+URL: http://localhost:8080/%D0%91%D1%80%D0%B0%D0%B9%D0%B0%D0%BD/add-mb/HmkFLoDoTnHiPLFRItrcKlKaFdwdrLKvMuuyFYUYfHrZkyBWsEWzHfwtyCsDexmCvxxxzEYQfbFhstadPHjZwPIxegZpAatVpbwlJBKEnUUYsTvnSFJInBzKLUceXvwUlDeVCboGHsfwSkKAKrWfbRWwUDLAvCDpxDDjcFSlyJLLmNldawSrmnUnKcElcPWdnIHkYnohmiMjiFDTDDUynUeBFgxJhSbcWZLDJVdexyvVsrwoeUOuBDhpSnMoOmHO
+
+-----
+
+-----
+Test: tests/test_add_book.py::test_add_books (call)
+Start time: 2023-11-30 17:57:21.133173
+Start name method: add_metabook
+
+End time: 2023-11-30 17:57:22.568401
+End name method: accept_alert
+URL: http://localhost:8080/%D0%91%D1%80%D0%B0%D0%B9%D0%B0%D0%BD/private/HmkFLoDoTnHiPLFRItrcKlKaFdwdrLKvMuuyFYUYfHrZkyBWsEWzHfwtyCsDexmCvxxxzEYQfbFhstadPHjZwPIxegZpAatVpbwlJBKEnUUYsTvnSFJInBzKLUceXvwUlDeVCboGHsfwSkKAKrWfbRWwUDLAvCDpxDDjcFSlyJLLmNldawSrmnUnKcElcPWdnIHkYnohmiMjiFDTDDUynUeBFgxJhSbcWZLDJVdexyvVsrwoeUOuBDhpSnMoOmHO
+
+-----
+
+-----
+Test: tests/test_add_book.py::test_add_books (call)
+Start time: 2023-11-30 17:57:22.568401
+Start name method: select_book
+
+End time: 2023-11-30 17:57:22.663980
+End name method: select_book
+URL: http://localhost:8080/%D0%91%D1%80%D0%B0%D0%B9%D0%B0%D0%BD/add-b/HmkFLoDoTnHiPLFRItrcKlKaFdwdrLKvMuuyFYUYfHrZkyBWsEWzHfwtyCsDexmCvxxxzEYQfbFhstadPHjZwPIxegZpAatVpbwlJBKEnUUYsTvnSFJInBzKLUceXvwUlDeVCboGHsfwSkKAKrWfbRWwUDLAvCDpxDDjcFSlyJLLmNldawSrmnUnKcElcPWdnIHkYnohmiMjiFDTDDUynUeBFgxJhSbcWZLDJVdexyvVsrwoeUOuBDhpSnMoOmHO
+
+-----
+
+-----
+Test: tests/test_add_book.py::test_add_books (call)
+Start time: 2023-11-30 17:57:22.663980
+Start name method: add_book
+
+End time: 2023-11-30 17:57:24.026183
+End name method: accept_alert
+URL: http://localhost:8080/%D0%91%D1%80%D0%B0%D0%B9%D0%B0%D0%BD/private/HmkFLoDoTnHiPLFRItrcKlKaFdwdrLKvMuuyFYUYfHrZkyBWsEWzHfwtyCsDexmCvxxxzEYQfbFhstadPHjZwPIxegZpAatVpbwlJBKEnUUYsTvnSFJInBzKLUceXvwUlDeVCboGHsfwSkKAKrWfbRWwUDLAvCDpxDDjcFSlyJLLmNldawSrmnUnKcElcPWdnIHkYnohmiMjiFDTDDUynUeBFgxJhSbcWZLDJVdexyvVsrwoeUOuBDhpSnMoOmHO
+
+-----
+
+-----
+Test: tests/test_add_book.py::test_add_books (call)
+Start time: 2023-11-30 17:57:24.026183
+Start name method: select_text
+
+End time: 2023-11-30 17:57:24.123298
+End name method: select_text
+URL: http://localhost:8080/%D0%91%D1%80%D0%B0%D0%B9%D0%B0%D0%BD/add-t/HmkFLoDoTnHiPLFRItrcKlKaFdwdrLKvMuuyFYUYfHrZkyBWsEWzHfwtyCsDexmCvxxxzEYQfbFhstadPHjZwPIxegZpAatVpbwlJBKEnUUYsTvnSFJInBzKLUceXvwUlDeVCboGHsfwSkKAKrWfbRWwUDLAvCDpxDDjcFSlyJLLmNldawSrmnUnKcElcPWdnIHkYnohmiMjiFDTDDUynUeBFgxJhSbcWZLDJVdexyvVsrwoeUOuBDhpSnMoOmHO
+
+-----
+
+-----
+Test: tests/test_add_book.py::test_add_books (call)
+Start time: 2023-11-30 17:57:24.124296
+Start name method: add_text
+
+End time: 2023-11-30 17:57:25.318013
+End name method: accept_alert
+URL: http://localhost:8080/%D0%91%D1%80%D0%B0%D0%B9%D0%B0%D0%BD/private/HmkFLoDoTnHiPLFRItrcKlKaFdwdrLKvMuuyFYUYfHrZkyBWsEWzHfwtyCsDexmCvxxxzEYQfbFhstadPHjZwPIxegZpAatVpbwlJBKEnUUYsTvnSFJInBzKLUceXvwUlDeVCboGHsfwSkKAKrWfbRWwUDLAvCDpxDDjcFSlyJLLmNldawSrmnUnKcElcPWdnIHkYnohmiMjiFDTDDUynUeBFgxJhSbcWZLDJVdexyvVsrwoeUOuBDhpSnMoOmHO
+
+-----
+
+-----
+Test: tests/test_add_book.py::test_add_books (call)
+Start time: 2023-11-30 17:57:25.319011
+Start name method: select_text
+

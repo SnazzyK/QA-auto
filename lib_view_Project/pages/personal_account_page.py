@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver.support import expected_conditions as EC
 
 from selenium.webdriver.common.by import By
@@ -105,6 +107,9 @@ class Personal_account_page(Base):
     def select_text(self):
         with allure.step("Select text"):
             Logger.add_start_step(method="select_text")
+            time.sleep(1)
+            self.driver_g.execute_script("window.scrollTo(0,250)")
+            time.sleep(1)
             self.click_add_text()
             Logger.add_end_step(url=self.driver_g.current_url, method="select_text")
 
