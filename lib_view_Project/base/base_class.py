@@ -42,7 +42,8 @@ class Base():
     """Method Screenshot"""
 
     def get_screenshot(self):
-        now_date = datetime.datetime.utcnow().strftime("%Y.%m.%d.%H.%M.%S")
-        name_screenshot = 'screenshot' + now_date + '.png'
-        self.driver_g.save_screenshot(
-            'C:\\Users\\snazz\\PycharmProjects\\QA-auto\\Final_project\\screen\\' + name_screenshot)
+        now_time = datetime.datetime.utcnow().strftime("%Y.%m.%d.%H.%M.%S")
+        name_screenshot = 'screenshot' + now_time + '.png'
+        # self.driver_g.save_screenshot('C:\\Users\\snazz\\PycharmProjects\\QA-auto\\Final_project\\screen\\' + name_screenshot)
+        self.driver_g.save_screenshot(f"..\\lib_view_Project\\screen\\screenshot {now_time}.png" + name_screenshot)
+

@@ -125,11 +125,11 @@ class Add_book_page(Base):
             self.click_lang_book()
             self.click_select_lang_book()
             self.click_add_book_button()
-            Logger.add_end_step(url=self.driver_g.current_url, method="add_book")
+
 
     def accept_alert(self):
         with allure.step("Accept alert"):
-            Logger.add_start_step(method="accept_alert")
+
             self.alert = self.driver_g.switch_to.alert
             self.alert.accept()
             time.sleep(1)

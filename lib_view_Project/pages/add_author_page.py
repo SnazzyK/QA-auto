@@ -138,16 +138,16 @@ class Add_author_page(Base):
             self.click_lang_author()
             self.click_select_lang_author()
             self.click_add_button()
-            Logger.add_end_step(url=self.driver_g.current_url, method="add_author")
+
+
 
     def accept_alert(self):
-        with allure.step("Accept alert"):
-            Logger.add_start_step(method="accept_alert")
+        with allure.step("Add author"):
             self.alert = self.driver_g.switch_to.alert
             self.alert.accept()
             time.sleep(1)
             self.alert.accept()
-            Logger.add_end_step(url=self.driver_g.current_url, method="accept_alert")
+            Logger.add_end_step(url=self.driver_g.current_url, method="add_author")
 
 
 

@@ -44,6 +44,9 @@ class Personal_account_page(Base):
     def get_add_text(self):
         return WebDriverWait(self.driver_g, 30).until(EC.element_to_be_clickable((By.XPATH, self.add_text)))
 
+    def get_my_books(self):
+        return WebDriverWait(self.driver_g, 30).until(EC.element_to_be_clickable((By.XPATH, self.my_books)))
+
 
 
 
@@ -66,6 +69,10 @@ class Personal_account_page(Base):
     def click_add_text(self):
         self.get_add_text().click()
         print("Click add text")
+
+    def click_my_books(self):
+        self.get_my_books().click()
+        print("Click my books")
 
 
 
@@ -99,4 +106,10 @@ class Personal_account_page(Base):
         with allure.step("Select text"):
             Logger.add_start_step(method="select_text")
             self.click_add_text()
+            Logger.add_end_step(url=self.driver_g.current_url, method="select_text")
+
+    def select_my_books(self):
+        with allure.step("Select text"):
+            Logger.add_start_step(method="select_text")
+            self.click_my_books()
             Logger.add_end_step(url=self.driver_g.current_url, method="select_text")

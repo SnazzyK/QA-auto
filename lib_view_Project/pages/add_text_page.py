@@ -69,12 +69,11 @@ class Add_text_page(Base):
             Logger.add_start_step(method="add_text")
             self.input_area_text("{Glava1\nText\n{")
             self.click_add_text_button()
-            Logger.add_end_step(url=self.driver_g.current_url, method="add_text")
+
 
 
     def accept_alert(self):
         with allure.step("Accept alert"):
-            Logger.add_start_step(method="accept_alert")
             self.alert = self.driver_g.switch_to.alert
             self.alert.accept()
             time.sleep(1)

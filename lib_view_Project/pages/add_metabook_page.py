@@ -128,11 +128,10 @@ class Add_metabook_page(Base):
             self.click_add_language_book()
             self.input_creation_year("1830")
             self.click_add_metabook_button()
-            Logger.add_end_step(url=self.driver_g.current_url, method="add_metabook")
+
 
     def accept_alert(self):
         with allure.step("Accept alert"):
-            Logger.add_start_step(method="accept_alert")
             self.alert = self.driver_g.switch_to.alert
             self.alert.accept()
             time.sleep(1)
